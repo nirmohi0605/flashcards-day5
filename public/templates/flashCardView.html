@@ -1,0 +1,4 @@
+<div ng-repeat="flashCard in flashCards | orderBy: 'question'">
+	<flash-card card="flashCard"></flash-card>
+	<p ui-sref="manage({cardId: flashCard._id})">Edit</p>
+</div>

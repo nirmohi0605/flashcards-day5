@@ -14,6 +14,7 @@ app.factory('FlashCardFactory', function ($http) {
           return res.data;
         });
       },
+      flashCards: []
       // Card: function () {
       //   this.answers = [{correct: true}, {correct: false}, {correct: false}];
       // }
